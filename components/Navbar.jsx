@@ -177,7 +177,7 @@ const Navbar = () => {
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a
-                  href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                  href='https://www.linkedin.com/in/jeyulmer/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -186,7 +186,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href='https://github.com/fireclint'
+                  href='https://github.com/ampersand22'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -203,12 +203,19 @@ const Navbar = () => {
                   </div>
                 </Link>
                 <Link legacyBehavior href='/resume'>
-                  <div
+                  <a
+                    href='https://docs.google.com/document/d/e/2PACX-1vT-OqCQ-vhj_W2GGmNt-qYaEr2_md3k-mE_YDCWEjP25trPf21ezbifjmr4TzGjaQpUVshSrQWRkVjW/pub'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                  
+                  </a>
+                  {/* <div
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
                   >
                     <BsFillPersonLinesFill />
-                  </div>
+                  </div> */}
                 </Link>
               </div>
             </div>
