@@ -27,11 +27,10 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className='py-2'>Clint Briley</h2>
+                <h2 className='py-2'>Jey Ulmer</h2>
                 <p>Front-End Developer</p>
                 <p className='py-4'>
-                  I am available for freelance or full-time positions. Contact
-                  me and let&apos;s talk.
+                  I am available for freelance or full-time positions. Feel free to contact me.
                 </p>
               </div>
               <div>
@@ -59,7 +58,7 @@ const Contact = () => {
                   <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <AiOutlineMail />
                   </div>
-                  <Link href='/resume'>
+                  <Link legacyBehavior href='/resume'>
                     <a>
                       <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <BsFillPersonLinesFill />
@@ -131,7 +130,7 @@ const Contact = () => {
           </div>
         </div>
         <div className='flex justify-center py-12'>
-          <Link href='/'>
+          <Link legacyBehavior href='/'>
             <a>
               <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <HiOutlineChevronDoubleUp
