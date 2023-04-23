@@ -18,7 +18,7 @@ const Projects = () => {
         <ProjectItem
             title='Wordle-Clone'
             backgroundImg={wordleimg}
-            projectUrl='/wordle'
+            projectUrl='https://wordle-x7jz-p0qt1bovl-ampersand22.vercel.app/'
             tech='React JS'
           />
           <ProjectItem
