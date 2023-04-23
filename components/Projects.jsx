@@ -3,7 +3,7 @@ import Link from 'next/link';
 import appPost from '../public/assets/projects/appPost.png';
 import polyImg from '../public/assets/projects/polyimg.png'
 import realtorImg from '../public/assets/projects/realtorapp.png'
-import wordleimg from '../public/assets/wordleimg.jpg'
+import wordleimg from '../public/assets/projects/wordleimg.jpg'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
