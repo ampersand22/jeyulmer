@@ -80,9 +80,9 @@ const Navbar = () => {
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link legacyBehavior href='/#projects'>Projects</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            {/* <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link legacyBehavior href='/resume'>Resume</Link>
-            </li>
+            </li> */}
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link legacyBehavior href='/#contact'>Contact</Link>
             </li>
@@ -160,11 +160,11 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link legacyBehavior href='/resume'>
+              {/* <Link legacyBehavior href='/resume'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Resume
                 </li>
-              </Link>
+              </Link> */}
               <Link legacyBehavior href='/#contact'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Contact
