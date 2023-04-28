@@ -133,9 +133,9 @@ const Navbar = () => {
               </div>
             </div>
             <div className='border-b border-gray-300 my-4'>
-              <p className='w-[85%] md:w-[90%] py-4'>
+              {/* <p className='w-[85%] md:w-[90%] py-4'>
                 Let&#39;s build something legendary together
-              </p>
+              </p> */}
             </div>
           </div>
           <div className='py-4 flex flex-col'>
@@ -202,7 +202,7 @@ const Navbar = () => {
                     <AiOutlineMail />
                   </div>
                 </Link>
-                <Link legacyBehavior href='/resume'>
+                {/* <Link legacyBehavior href='/resume'>
                   <a
                     href='https://docs.google.com/document/d/e/2PACX-1vT-OqCQ-vhj_W2GGmNt-qYaEr2_md3k-mE_YDCWEjP25trPf21ezbifjmr4TzGjaQpUVshSrQWRkVjW/pub'
                     target='_blank'
@@ -210,13 +210,13 @@ const Navbar = () => {
                   >
                   
                   </a>
-                  {/* <div
+                  <div
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
                   >
                     <BsFillPersonLinesFill />
-                  </div> */}
-                </Link>
+                  </div>
+                </Link> */}
               </div>
             </div>
           </div>
