@@ -38,7 +38,7 @@ const Projects = () => {
             title='Wastd Cocktail App'
             backgroundImg={wastd}
             projectUrl='https://rocky-temple-80630.herokuapp.com/'
-            tech='Next.js'
+            tech='React/Django/Python'
 
           />
           
