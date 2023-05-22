@@ -15,7 +15,19 @@ const Projects = () => {
         </p>
         <h2 className='py-4'>Projects</h2>
         <div className='grid md:grid-cols-2 gap-8'>
-        <ProjectItem
+          <ProjectItem
+            title='Wastd Cocktail App'
+            backgroundImg={wastd}
+            projectUrl='https://rocky-temple-80630.herokuapp.com/'
+            tech='React/Django/Python'
+          />
+          <ProjectItem
+            title='polyBeast w/ Jason Horst'
+            backgroundImg={polyImg}
+            projectUrl='https://intuitiveharmony.github.io/breeze_front/'
+            tech='React/Reactronica'
+          />
+          <ProjectItem
             title='Wordle-Clone'
             backgroundImg={wordleimg}
             projectUrl='https://wordle-x7jz.vercel.app'
@@ -26,20 +38,6 @@ const Projects = () => {
             backgroundImg={appPost}
             projectUrl='/apppost'
             tech='React JS'
-          />
-          <ProjectItem
-            title='polyBeast w/ Jason Horst'
-            backgroundImg={polyImg}
-            projectUrl='https://intuitiveharmony.github.io/breeze_front/'
-            tech='React/Reactronica'
-
-          />
-          <ProjectItem
-            title='Wastd Cocktail App'
-            backgroundImg={wastd}
-            projectUrl='https://rocky-temple-80630.herokuapp.com/'
-            tech='React/Django/Python'
-
           />
           
         </div>
