@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import appPost from '../public/assets/projects/appPost.png';
 import polyImg from '../public/assets/projects/polyimg.png'
-import realtorImg from '../public/assets/projects/realtorapp.png'
+import wastd from '../public/assets/projects/wastdapp2.jpeg'
 import wordleimg from '../public/assets/projects/wordleimg.png'
 import ProjectItem from './ProjectItem';
 
@@ -35,9 +35,9 @@ const Projects = () => {
 
           />
           <ProjectItem
-            title='Realtor App'
-            backgroundImg={realtorImg}
-            projectUrl='/realtor'
+            title='Wastd Cocktail App'
+            backgroundImg={wastd}
+            projectUrl='https://rocky-temple-80630.herokuapp.com/'
             tech='Next.js'
 
           />
