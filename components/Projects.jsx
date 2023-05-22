@@ -28,9 +28,9 @@ const Projects = () => {
             tech='React JS'
           />
           <ProjectItem
-            title='polyBeast'
+            title='polyBeast w/ Jason Horst'
             backgroundImg={polyImg}
-            projectUrl='/polybeast'
+            projectUrl='https://intuitiveharmony.github.io/breeze_front/'
             tech='React/Reactronica'
 
           />
